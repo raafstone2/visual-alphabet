@@ -17,3 +17,4 @@ presplash.color = #1565c0
 [buildozer]
 log_level = 2
 warn_on_root = 0
+android.ndk = 25b
