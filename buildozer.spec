@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas,ttf
 version = 1.0
 
 # (list) Application requirements
-requirements = python3,kivy==2.2.1,pillow==9.5.0
+requirements = python3,kivy,pillow
 
 # (str) Presplash color
 presplash.color = #1565c0
