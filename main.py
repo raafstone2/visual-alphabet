@@ -161,7 +161,8 @@ class VisualAlphabetApp(App):
         self.canvas_widget.bind(on_touch_move=self.drawing)
         Clock.schedule_once(lambda dt: self.set_size("A4"), 0.5)
         return main_layout
-          def update_entry_fields(self, *args):
+    
+    def update_entry_fields(self, *args):
         self.entries_layout.clear_widgets()
         self.entry_list = []
         num_cols = int(self.cols_spinner.text)
@@ -301,7 +302,8 @@ class VisualAlphabetApp(App):
                 Color(0.85, 0.26, 0.08, 1)
             Line(rectangle=(x1, y1, box_w, box_h), width=3)
         self.draw_triangle()
-          def display_sentence(self, mode):
+    
+    def display_sentence(self, mode):
         self.display_mode = mode
         self.canvas_widget.canvas.clear()
         if mode == "triangle":
